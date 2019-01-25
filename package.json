@@ -1,0 +1,23 @@
+{
+  "name": "wprun-script-github",
+  "version": "0.1.0",
+  "description": "GitHub-Pages script for wprun",
+  "author": "Djalma Jr. <djalmajr@gmail.com>",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "contributors": [],
+  "homepage": "https://github.com/djalmajr/wprun-script-github/tree/master#readme",
+  "bugs": {
+    "url": "https://github.com/djalmajr/wprun-script-github/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:djalmajr/wprun-script-github.git"
+  },
+  "bin": {
+    "run-github": "bin/pages.sh"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
